@@ -1,0 +1,46 @@
+{
+  "name": "markdown-it-govuk-components",
+  "version": "1.0.0",
+  "description": "A markdown-it plugin for rendering GOV.UK Design System components",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.test.js",
+    "demo": "node examples/demo.js"
+  },
+  "keywords": [
+    "markdown-it",
+    "markdown-it-plugin",
+    "govuk",
+    "gov.uk",
+    "design-system",
+    "markdown",
+    "components"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/markdown-it-govuk-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/markdown-it-govuk-components/issues"
+  },
+  "homepage": "https://github.com/yourusername/markdown-it-govuk-components#readme",
+  "peerDependencies": {
+    "markdown-it": "^12.0.0 || ^13.0.0 || ^14.0.0"
+  },
+  "devDependencies": {
+    "markdown-it": "^14.0.0",
+    "mocha": "^10.2.0",
+    "chai": "^4.3.10"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
